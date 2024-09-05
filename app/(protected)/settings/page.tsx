@@ -12,7 +12,7 @@ const SettingsPage = async () => {
         <form action={ async () => {
           "use server";
           await signOut()
-          window.location.replace("http://localhost:3000/auth/signin")
+          
         }}>
           <button type="submit">
             Sign out
